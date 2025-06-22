@@ -166,7 +166,7 @@ const Services = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold flex items-center justify-center mx-auto group transition-all"
           >
-            Get Your Custom Bot
+            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Get Your Custom Bot</a>
             <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </motion.button>
         </motion.div>

@@ -57,7 +57,7 @@ const Process = () => {
         <div className="hidden lg:block relative">
           {/* Connection Line */}
           <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-aurum-red via-gray-600 to-aurum-red transform -translate-y-1/2"></div>
-          
+
           <div className="grid lg:grid-cols-4 gap-8 relative z-10">
             {steps.map((step, index) => {
               const yOffset = useTransform(
@@ -65,12 +65,12 @@ const Process = () => {
                 [0, 1],
                 [50, -50]
               );
-              
+
               return (
                 <motion.div
                   key={index}
                   style={{ y: index % 2 === 0 ? yOffset : useTransform(yOffset, (value) => -value) }}
-                  whileHover={{ 
+                  whileHover={{
                     scale: 1.05,
                     boxShadow: "0 20px 40px rgba(240, 54, 54, 0.3)"
                   }}
@@ -78,7 +78,7 @@ const Process = () => {
                 >
                   <div className="bg-aurum-gray/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-800 hover:border-aurum-red/50 transition-all duration-300 mb-6">
                     <div className="relative mb-6">
-                      <motion.div 
+                      <motion.div
                         whileHover={{ scale: 1.1, rotate: 360 }}
                         transition={{ duration: 0.6 }}
                         className="w-16 h-16 rounded-full bg-gradient-to-r from-aurum-red to-red-600 flex items-center justify-center mx-auto group-hover:shadow-lg group-hover:shadow-aurum-red/50"
@@ -89,11 +89,11 @@ const Process = () => {
                         {index + 1}
                       </div>
                     </div>
-                    
+
                     <h3 className="text-xl font-bold text-white mb-3 group-hover:text-aurum-red transition-colors">
                       {step.title}
                     </h3>
-                    
+
                     <p className="text-gray-300 leading-relaxed mb-4">
                       {step.description}
                     </p>
@@ -117,7 +117,7 @@ const Process = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.02,
                 boxShadow: "0 15px 30px rgba(240, 54, 54, 0.2)"
               }}
@@ -125,7 +125,7 @@ const Process = () => {
             >
               <div className="flex items-start space-x-4">
                 <div className="relative flex-shrink-0">
-                  <motion.div 
+                  <motion.div
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     className="w-12 h-12 rounded-full bg-gradient-to-r from-aurum-red to-red-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-aurum-red/50"
                   >
@@ -135,12 +135,12 @@ const Process = () => {
                     {index + 1}
                   </div>
                 </div>
-                
+
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-aurum-red transition-colors">
                     {step.title}
                   </h3>
-                  
+
                   <p className="text-gray-300 leading-relaxed mb-2 text-sm">
                     {step.description}
                   </p>
@@ -161,17 +161,25 @@ const Process = () => {
           viewport={{ once: true }}
           className="text-center mt-12 lg:mt-16"
         >
-          <motion.button
-            whileHover={{ 
-              scale: 1.05,
-              boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
-              backgroundColor: "#d32f2f"
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold transition-all"
+          <a
+            href="https://cal.com/nihal-panday-k2jefc/videochat"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Start Your Automation Journey</a>
-          </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
+                backgroundColor: "#d32f2f"
+              }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold transition-all"
+            >
+              Start Your Automation Journey
+            </motion.button>
+          </a>
+
+
         </motion.div>
       </div>
     </section>

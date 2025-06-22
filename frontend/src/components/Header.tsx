@@ -49,18 +49,23 @@ const Header = () => {
             ))}
           </nav>
 
-          <motion.button
-            whileHover={{
-              scale: 1.05,
-              boxShadow: "0 0 20px rgba(240, 54, 54, 0.5)",
-              backgroundColor: "#d32f2f"
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="hidden md:block bg-aurum-red hover:bg-red-600 text-white px-4 py-2 lg:px-6 lg:py-2 rounded-lg font-semibold transition-all text-sm lg:text-base"
+          <a
+            href="https://cal.com/nihal-panday-k2jefc/videochat"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Book a Call</a>
-          </motion.button>
-
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 0 20px rgba(240, 54, 54, 0.5)",
+                backgroundColor: "#d32f2f"
+              }}
+              whileTap={{ scale: 0.95 }}
+              className="hidden md:block bg-aurum-red hover:bg-red-600 text-white px-4 py-2 lg:px-6 lg:py-2 rounded-lg font-semibold transition-all text-sm lg:text-base"
+            >
+              Book a Call
+            </motion.button>
+          </a>
           {/* Mobile Menu Button */}
           <motion.button
             whileHover={{ scale: 1.1 }}

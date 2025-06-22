@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       icon: Users,
-      title: "Tailored Solutions", 
+      title: "Tailored Solutions",
       description: "Every bot is custom-built for your specific needs—no templates or one-size-fits-all solutions."
     },
     {
@@ -42,7 +42,7 @@ const About = () => {
     {
       icon: Zap,
       stat: "Auto",
-      label: "Engage leads automatically", 
+      label: "Engage leads automatically",
       description: "Instant responses"
     },
     {
@@ -82,7 +82,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.05,
                 boxShadow: "0 15px 30px rgba(240, 54, 54, 0.2)"
               }}
@@ -117,29 +117,29 @@ const About = () => {
             <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 lg:mb-6">
               Curated Flow Created for <span className="text-aurum-red">Cluttered World</span>
             </h3>
-            
+
             <p className="text-sm lg:text-lg text-gray-300 leading-relaxed">
-              In a world overwhelmed by generic automation tools and template-based solutions, 
-              Aurum Flow stands apart as a beacon of craftsmanship and precision. We believe in 
-              quality over quantity, creating bespoke automation flows that truly understand and 
+              In a world overwhelmed by generic automation tools and template-based solutions,
+              Aurum Flow stands apart as a beacon of craftsmanship and precision. We believe in
+              quality over quantity, creating bespoke automation flows that truly understand and
               serve your business.
             </p>
-            
+
             <p className="text-sm lg:text-lg text-gray-300 leading-relaxed">
-              Our selective approach means we work with fewer clients, but each relationship is 
-              built on deep understanding, custom solutions, and ongoing partnership. Every bot 
-              we create is a unique piece of technology tailored specifically for your brand's 
+              Our selective approach means we work with fewer clients, but each relationship is
+              built on deep understanding, custom solutions, and ongoing partnership. Every bot
+              we create is a unique piece of technology tailored specifically for your brand's
               voice, goals, and growth trajectory.
             </p>
 
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-aurum-gray/30 rounded-xl p-4 lg:p-6 border border-gray-800 hover:border-aurum-red/50 transition-all duration-300"
             >
               <h4 className="text-lg lg:text-xl font-bold text-aurum-red mb-3 lg:mb-4">Our Mission</h4>
               <p className="text-sm lg:text-base text-gray-300">
-                To eliminate the noise in automation and deliver precision-crafted bots that 
-                become silent team members, working tirelessly to grow your business while 
+                To eliminate the noise in automation and deliver precision-crafted bots that
+                become silent team members, working tirelessly to grow your business while
                 you focus on what you do best.
               </p>
             </motion.div>
@@ -158,13 +158,13 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.05,
                   boxShadow: "0 20px 40px rgba(240, 54, 54, 0.2)"
                 }}
                 className="bg-aurum-gray/50 backdrop-blur-sm rounded-xl p-4 lg:p-6 border border-gray-800 hover:border-aurum-red/50 transition-all duration-300 text-center group"
               >
-                <motion.div 
+                <motion.div
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   className="w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-aurum-red to-red-600 rounded-lg flex items-center justify-center mx-auto mb-3 lg:mb-4 group-hover:shadow-lg group-hover:shadow-aurum-red/50"
                 >
@@ -190,23 +190,30 @@ const About = () => {
           <h3 className="text-2xl lg:text-3xl font-bold text-white mb-6 lg:mb-8">
             Ready to Experience the <span className="text-aurum-red">Aurum Flow</span> Difference?
           </h3>
-          
+
           <p className="text-base lg:text-xl text-gray-300 mb-6 lg:mb-8 max-w-3xl mx-auto">
-            Join our exclusive community of businesses that have discovered the power of 
+            Join our exclusive community of businesses that have discovered the power of
             truly custom automation. Let's build something extraordinary together.
           </p>
 
-          <motion.button
-            whileHover={{ 
-              scale: 1.05,
-              boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
-              backgroundColor: "#d32f2f"
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-aurum-red hover:bg-red-600 text-white px-8 py-3 lg:px-12 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all"
+          <a
+            href="https://cal.com/nihal-panday-k2jefc/videochat"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Start Your Journey</a>
-          </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
+                backgroundColor: "#d32f2f"
+              }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-aurum-red hover:bg-red-600 text-white px-8 py-3 lg:px-12 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all"
+            >
+              Start Your Journey
+            </motion.button>
+          </a>
+          
         </motion.div>
       </div>
     </section>

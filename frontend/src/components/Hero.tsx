@@ -199,39 +199,53 @@ const Hero = () => {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-5 justify-center items-center pt-3 sm:pt-4 lg:pt-6"
             >
-              <motion.button
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0 8px 30px rgba(240, 54, 54, 0.4)",
-                  backgroundColor: "#d32f2f",
-                  y: -2
-                }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-aurum-red hover:bg-red-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold flex items-center justify-center group transition-all duration-300 text-sm sm:text-base lg:text-lg shadow-lg w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
+              <a
+                href="https://cal.com/nihal-panday-k2jefc/videochat"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <a href="https://cal.com/nihal-panday-k2jefc/videochat">Join Discovery Call</a>
-                <motion.div
-                  className="ml-2"
-                  animate={{ x: [0, 3, 0] }}
-                  transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                <motion.button
+                  whileHover={{
+                    scale: 1.05,
+                    boxShadow: "0 8px 30px rgba(240, 54, 54, 0.4)",
+                    backgroundColor: "#d32f2f",
+                    y: -2
+                  }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-aurum-red hover:bg-red-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold flex items-center justify-center group transition-all duration-300 text-sm sm:text-base lg:text-lg shadow-lg w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
                 >
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
-                </motion.div>
-              </motion.button>
+                  Join Discovery Call
+                  <motion.div
+                    className="ml-2"
+                    animate={{ x: [0, 3, 0] }}
+                    transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                  >
+                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
+                  </motion.div>
+                </motion.button>
+              </a>
 
-              <motion.button
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0 8px 25px rgba(255, 255, 255, 0.1)",
-                  borderColor: "#F03636",
-                  backgroundColor: "rgba(240, 54, 54, 0.05)",
-                  y: -2
-                }}
-                whileTap={{ scale: 0.95 }}
-                className="border-2 border-gray-600 hover:border-aurum-red text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold transition-all duration-300 text-sm sm:text-base lg:text-lg backdrop-blur-sm w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
+              <a
+                href="https://youtu.be/n0TKjMvXrFk"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                View Our Process
-              </motion.button>
+                <motion.button
+                  whileHover={{
+                    scale: 1.05,
+                    boxShadow: "0 8px 25px rgba(255, 255, 255, 0.1)",
+                    borderColor: "#F03636",
+                    backgroundColor: "rgba(240, 54, 54, 0.05)",
+                    y: -2
+                  }}
+                  whileTap={{ scale: 0.95 }}
+                  className="border-2 border-gray-600 hover:border-aurum-red text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold transition-all duration-300 text-sm sm:text-base lg:text-lg backdrop-blur-sm w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
+                >
+                  View Our Process
+                </motion.button>
+              </a>
+
+
             </motion.div>
 
           </motion.div>

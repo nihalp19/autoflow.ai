@@ -5,7 +5,7 @@ import { MessageSquare, Zap, Hash, RefreshCw, ShoppingBag, ArrowRight } from 'lu
 const Services = () => {
   const problems = [
     "Manually responding to every DM and comment",
-    "Missing leads while you sleep or focus on other tasks", 
+    "Missing leads while you sleep or focus on other tasks",
     "Spending hours researching trending hashtags",
     "Losing potential customers who don't get immediate responses",
     "Repetitive customer service questions eating your time"
@@ -20,7 +20,7 @@ const Services = () => {
     },
     {
       icon: Zap,
-      title: "Smart Auto-Reply Bot", 
+      title: "Smart Auto-Reply Bot",
       description: "Replies instantly to common DMs (FAQs, links, booking)",
       features: ["Instant responses", "FAQ automation", "Booking links"]
     },
@@ -78,7 +78,7 @@ const Services = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.02,
                   boxShadow: "0 10px 30px rgba(240, 54, 54, 0.2)"
                 }}
@@ -116,24 +116,24 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ 
+              whileHover={{
                 scale: 1.05,
                 boxShadow: "0 20px 40px rgba(240, 54, 54, 0.3)",
                 y: -10
               }}
               className="bg-aurum-gray/50 backdrop-blur-sm rounded-xl p-6 lg:p-8 border border-gray-800 hover:border-aurum-red/50 transition-all duration-300 group"
             >
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 className="w-12 h-12 lg:w-16 lg:h-16 rounded-lg bg-gradient-to-r from-aurum-red to-red-600 flex items-center justify-center mb-4 lg:mb-6 group-hover:shadow-lg group-hover:shadow-aurum-red/50 transition-all"
               >
                 <service.icon className="w-6 h-6 lg:w-8 lg:h-8 text-white" />
               </motion.div>
-              
+
               <h3 className="text-lg lg:text-xl font-bold text-white mb-3 lg:mb-4 group-hover:text-aurum-red transition-colors">
                 {service.title}
               </h3>
-              
+
               <p className="text-gray-300 leading-relaxed mb-4 text-sm lg:text-base">
                 {service.description}
               </p>
@@ -157,18 +157,26 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <motion.button
-            whileHover={{ 
-              scale: 1.05,
-              boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
-              backgroundColor: "#d32f2f"
-            }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold flex items-center justify-center mx-auto group transition-all"
+          <a
+            href="https://cal.com/nihal-panday-k2jefc/videochat"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Get Your Custom Bot</a>
-            <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-          </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
+                backgroundColor: "#d32f2f"
+              }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold flex items-center justify-center mx-auto group transition-all"
+            >
+              Get Your Custom Bot
+              <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            </motion.button>
+          </a>
+
+
         </motion.div>
       </div>
     </section>

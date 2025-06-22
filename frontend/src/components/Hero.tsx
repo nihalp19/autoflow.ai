@@ -209,7 +209,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-aurum-red hover:bg-red-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold flex items-center justify-center group transition-all duration-300 text-sm sm:text-base lg:text-lg shadow-lg w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
               >
-                Join Discovery Call
+                <a href="https://cal.com/nihal-panday-k2jefc/videochat">Join Discovery Call</a>
                 <motion.div
                   className="ml-2"
                   animate={{ x: [0, 3, 0] }}

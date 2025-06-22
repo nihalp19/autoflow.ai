@@ -205,7 +205,7 @@ const About = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-aurum-red hover:bg-red-600 text-white px-8 py-3 lg:px-12 lg:py-4 rounded-lg font-semibold text-base lg:text-lg transition-all"
           >
-            Start Your Journey
+            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Start Your Journey</a>
           </motion.button>
         </motion.div>
       </div>

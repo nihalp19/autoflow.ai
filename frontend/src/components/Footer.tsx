@@ -5,7 +5,7 @@ import { Bot, MousePointer,Phone, Mail, MessageSquare } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-aurum-dark border-t border-gray-800">
-      <div className="container mx-auto px-[30px] md:px-[40px]  py-12 lg:py-16">
+      <div className="container mx-auto px-[30px] md:px-[80px]  py-12 lg:py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">

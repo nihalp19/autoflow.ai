@@ -170,7 +170,7 @@ const Process = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold transition-all"
           >
-            Start Your Automation Journey
+            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Start Your Automation Journey</a>
           </motion.button>
         </motion.div>
       </div>

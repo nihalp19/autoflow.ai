@@ -13,7 +13,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-3 mb-4 lg:mb-6"
             >
-              <MousePointer className="w-8 h-8 lg:w-10 lg:h-10 text-aurum-red" />
+            <MousePointer className="w-6 h-6 lg:w-8 lg:h-8 text-aurum-red" />
               <span className="text-2xl lg:text-3xl font-bold text-white">Aurum Flow</span>
             </motion.div>
             

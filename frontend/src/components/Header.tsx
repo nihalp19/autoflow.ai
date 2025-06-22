@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Bot } from 'lucide-react';
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { href: '#home', label: 'Home' },
     { href: '#services', label: 'Services' },
-    { href: '#pricing', label: 'Pricing' },
+    // { href: '#pricing', label: 'Pricing' },
     { href: '#testimonials', label: 'Testimonials' },
     { href: '#faq', label: 'FAQ' },
     { href: '#about', label: 'About' },
@@ -36,7 +37,7 @@ const Header = () => {
               <motion.a
                 key={link.href}
                 href={link.href}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.1,
                   color: "#F03636"
                 }}
@@ -48,7 +49,7 @@ const Header = () => {
           </nav>
 
           <motion.button
-            whileHover={{ 
+            whileHover={{
               scale: 1.05,
               boxShadow: "0 0 20px rgba(240, 54, 54, 0.5)",
               backgroundColor: "#d32f2f"
@@ -56,7 +57,7 @@ const Header = () => {
             whileTap={{ scale: 0.95 }}
             className="hidden md:block bg-aurum-red hover:bg-red-600 text-white px-4 py-2 lg:px-6 lg:py-2 rounded-lg font-semibold transition-all text-sm lg:text-base"
           >
-            Join Call
+            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Book a Call</a>
           </motion.button>
 
           {/* Mobile Menu Button */}
@@ -83,7 +84,7 @@ const Header = () => {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  whileHover={{ 
+                  whileHover={{
                     scale: 1.05,
                     color: "#F03636"
                   }}
@@ -92,15 +93,7 @@ const Header = () => {
                   {link.label}
                 </motion.a>
               ))}
-              <motion.button 
-                whileHover={{ 
-                  scale: 1.05,
-                  boxShadow: "0 0 20px rgba(240, 54, 54, 0.5)"
-                }}
-                className="bg-aurum-red hover:bg-red-600 text-white px-6 py-2 rounded-lg font-semibold transition-all w-fit mt-2"
-              >
-                Join Call
-              </motion.button>
+
             </nav>
           </motion.div>
         )}

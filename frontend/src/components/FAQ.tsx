@@ -73,7 +73,7 @@ const FAQ = () => {
             >
               <motion.button
                 onClick={() => toggleFAQ(index)}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.01,
                   boxShadow: "0 10px 30px rgba(240, 54, 54, 0.2)"
                 }}
@@ -127,7 +127,7 @@ const FAQ = () => {
         >
           <p className="text-gray-300 mb-4 lg:mb-6">Still have questions?</p>
           <motion.button
-            whileHover={{ 
+            whileHover={{
               scale: 1.05,
               boxShadow: "0 0 30px rgba(240, 54, 54, 0.5)",
               backgroundColor: "#d32f2f"
@@ -135,7 +135,7 @@ const FAQ = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold transition-all"
           >
-            Schedule a Discovery Call
+            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Schedule a Discovery Call</a>
           </motion.button>
         </motion.div>
       </div>

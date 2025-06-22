@@ -34,8 +34,8 @@ const Footer = () => {
                 }}
                 className="flex items-center text-gray-300 hover:text-aurum-red transition-all text-sm lg:text-base"
               >
-                <Phone className="w-4 h-4 lg:w-5 lg:h-5 mr-2 lg:mr-3" />
-                +91 8800576066
+                {/* <Phone className="w-4 h-4 lg:w-5 lg:h-5 mr-2 lg:mr-3" />
+                +91 8800576066 */}
               </motion.a>
               
               <motion.a

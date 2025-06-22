@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Bot } from 'lucide-react';
+import { Menu, X, Bot, MousePointer } from 'lucide-react';
+
 
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <Bot className="w-6 h-6 lg:w-8 lg:h-8 text-aurum-red" />
+            <MousePointer className="w-6 h-6 lg:w-8 lg:h-8 text-aurum-red" />
             <span className="text-xl lg:text-2xl font-bold text-white">Aurum Flow</span>
           </motion.div>
 

@@ -55,7 +55,7 @@ const About = () => {
 
   return (
     <section id="about" className="py-12 lg:py-20 bg-gradient-to-b from-aurum-gray to-black">
-      <div className="container mx-auto px-[30px] md:px-[40px] lg:px-[80px]">
+      <div className="container mx-auto px-[30px] md:px-[40px] lg:px-[80px] overflow-x-hidden">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -213,7 +213,7 @@ const About = () => {
               Start Your Journey
             </motion.button>
           </a>
-          
+
         </motion.div>
       </div>
     </section>

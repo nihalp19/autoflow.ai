@@ -203,6 +203,7 @@ const Hero = () => {
                 href="https://cal.com/nihal-panday-k2jefc/videochat"
                 target="_blank"
                 rel="noopener noreferrer"
+                className='bg-aurum-red hover:bg-red-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold flex items-center justify-center group transition-all duration-300 text-sm sm:text-base lg:text-lg shadow-lg w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]'
               >
                 <motion.button
                   whileHover={{
@@ -212,7 +213,7 @@ const Hero = () => {
                     y: -2
                   }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-aurum-red hover:bg-red-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold flex items-center justify-center group transition-all duration-300 text-sm sm:text-base lg:text-lg shadow-lg w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
+                  className='flex items-center'
                 >
                   Join Discovery Call
                   <motion.div
@@ -229,6 +230,7 @@ const Hero = () => {
                 href="https://youtu.be/n0TKjMvXrFk"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="border-2 border-gray-600 hover:border-aurum-red text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold transition-all duration-300 text-sm sm:text-base lg:text-lg backdrop-blur-sm w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
               >
                 <motion.button
                   whileHover={{
@@ -239,7 +241,7 @@ const Hero = () => {
                     y: -2
                   }}
                   whileTap={{ scale: 0.95 }}
-                  className="border-2 border-gray-600 hover:border-aurum-red text-white px-5 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl font-semibold transition-all duration-300 text-sm sm:text-base lg:text-lg backdrop-blur-sm w-full sm:w-auto min-w-[180px] sm:min-w-[200px] lg:min-w-[220px]"
+
                 >
                   View Our Process
                 </motion.button>

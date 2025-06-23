@@ -197,7 +197,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://cal.com/nihal-panday-k2jefc/videochat"
+            href="https://cal.com/shirin-kulkarni-sg0r33/demo-call"
             target="_blank"
             rel="noopener noreferrer"
           >

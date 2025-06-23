@@ -135,7 +135,7 @@ const FAQ = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-aurum-red hover:bg-red-600 text-white px-6 py-3 lg:px-8 lg:py-4 rounded-lg font-semibold transition-all"
           >
-            <a href="https://cal.com/nihal-panday-k2jefc/videochat">Schedule a Discovery Call</a>
+            <a href="https://cal.com/shirin-kulkarni-sg0r33/demo-call">Schedule a Discovery Call</a>
           </motion.button>
         </motion.div>
       </div>
